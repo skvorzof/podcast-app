@@ -1,0 +1,22 @@
+.btn {
+  font-size: 40px;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 3px;
+  width: 100%;
+}
+
+.progress {
+  background-color: orangered;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
